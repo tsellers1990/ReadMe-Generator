@@ -5,27 +5,27 @@
         {
             type:"input",
             message:"What's your name?",
-            name:"q1"
+            name:"This was created by"
         },
         {
             type:"input",
             message:"Where are you located?",
-            name:"q2"
+            name:"This was Developed in"
         },
         {   
             type:"input",
             message:"Give a quick Bio:",
-            name:"q3"
+            name:"Bio"
         },
         {
             type:"input",
             message:"Your LinkedIn URL:",
-            name:"q4"
+            name:"Follow this Dev's Linkedin at"
         },
         {
             type:"input",
             message:"Your GitHub URL:",
-            name:"q5"
+            name:"Link to the Dev's GitHub"
         }
 
     ];
@@ -35,11 +35,11 @@
     function init() { //this initializes the whole ass process of starting the readme generation // question answers are dropped into vars here
     inquirer 
         .prompt(questions)
-        .then(function(response){
+        .then((response => {
             console.log(response)
 
-            writeToFile("changeName.md",response);
-        });
+            writeToFile("changeName", response);
+        }));
         
     }
 
