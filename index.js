@@ -30,18 +30,20 @@
 
     ];
 
+
+
     function init() { //this initializes the whole ass process of starting the readme generation // question answers are dropped into vars here
     inquirer 
         .prompt(questions)
         .then(function(response){
             console.log(response)
 
-            writeToFile("changeName",userResponse);
+            writeToFile("changeName.md",response);
         });
         
     }
 
-    function writeToFile(fileName, data) { //file name is RenameMe.md //~~~~~~~~~set this up to write to a file
+    function writeToFile(fileName, response) { //file name is RenameMe.md //~~~~~~~~~set this up to write to a file
         // fs.writeFile(fileName, data);
 
         fs.writeFile("changeName.md", JSON.stringify(response, null, 4), err => { //writes the cat.json file
