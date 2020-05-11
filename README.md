@@ -1,15 +1,54 @@
-# README Generator
 
-This is a program that you use to generate a custom README! You're prompted with multiple options, then you input your information and a new README file is generated!
+# 
+[![GitHub license](https://img.shields.io/badge/licese-MIT-blue.svg)](https://github.com//)
 
-## Getting Started
+## Description
 
-Run the file using node in your command line and follow the prompts!
 
-## Built With
 
-* [inquirer] - Used to prompt the user questions!
+## Table of contents
 
-## Author
+* [Installation](#installation)
 
-Tymothy Sellers
+* [Usage](#usage)
+
+* [License](#license)
+
+* [Contributing](#contributing)
+
+* [Tests](#tests)
+
+* [Questions](#questions)
+
+## Installation
+
+To install necessary dependencies, run the following command:
+
+```
+npm i
+```
+
+## Usage
+
+
+
+## License
+
+This project is licensed under the MIT license.
+  
+## Contributing
+
+
+
+## Tests
+
+To run tests, run the following command:
+
+```
+npm test
+```
+
+## Questions
+
+If you have any questions about the repo, open an issue or contact [](undefined) directly at .
+
