@@ -1,6 +1,6 @@
 
 # 
-[![GitHub license](https://img.shields.io/badge/licese-MIT-blue.svg)](https://github.com//)
+[![GitHub license](https://img.shields.io/badge/licese-MIT-blue.svg)](https://github.com/adfadSDFADF/)
 
 ## Description
 
@@ -50,5 +50,5 @@ npm test
 
 ## Questions
 
-If you have any questions about the repo, open an issue or contact [](undefined) directly at .
+If you have any questions about the repo, open an issue or contact [adfadSDFADF](undefined) directly at .
 
